@@ -1,1 +1,0 @@
-Karsai_Tamás

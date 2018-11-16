@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Elso">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Írd be a neved!"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:id="@+id/Elso_Neved_TextView"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Elso_Kert_Adat_Edit_Text"
+        android:layout_below="@+id/Elso_Neved_TextView"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:hint="név..."
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Nev_Kuldo_Elso_Activity_Button"
+        android:text="küldés"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Elso_Kert_Adat_Edit_Text"/>
+
+</RelativeLayout>
